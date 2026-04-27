@@ -19,17 +19,10 @@
 cargo run -- examples/hello.psj
 ```
 
-### Python
-
-```bash
-python3 psj_lang.py examples/hello.psj
-```
-
 입력(예: `진?`)이 필요하면 표준입력으로 공백 구분 정수를 넣으면 됩니다.
 
 ```bash
 echo "3 4" | cargo run -- examples/input.psj
-echo "3 4" | python3 psj_lang.py examples/input.psj
 ```
 
 ## 문법 요약
