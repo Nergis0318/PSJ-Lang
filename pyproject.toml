@@ -1,0 +1,14 @@
+[project]
+name = "parksangjin-lang"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+parksangjin-lang = "parksangjin_lang.__main__:main"
+
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"

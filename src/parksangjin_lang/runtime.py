@@ -1,7 +1,7 @@
 import sys
 
 
-class Umjunsik:
+class ParkSangjin:
     def __init__(self):
         self.data = [0] * 256
 
