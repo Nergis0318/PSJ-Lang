@@ -13,6 +13,8 @@
 
 ## 실행
 
+### Rust
+
 ```bash
 cargo run -- examples/hello.psj
 ```
