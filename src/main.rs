@@ -415,6 +415,14 @@ mod tests {
     }
 
     #[test]
+    fn hello_example_outputs_hello() {
+        let code = include_str!("../examples/hello.psj");
+        let (out, rc) = interpret(code, "").unwrap();
+        assert_eq!(out, "HELLO");
+        assert_eq!(rc, 0);
+    }
+
+    #[test]
     fn assign_and_print() {
         let code = "중국인\n박상..\n진박!\n게이 박상진";
         let (out, _) = interpret(code, "").unwrap();
